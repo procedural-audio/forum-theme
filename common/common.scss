@@ -329,8 +329,8 @@ html body #main-outlet {
       width: 100%;
       display: flex;
       margin-bottom: 0.5em;
-      background-color: var(--header_background); /* Topic box background */
-      border: 1px solid rgba(var(--primary-rgb), 0.2);
+      background-color: var(--highlight); /* Topic box background */
+      border: 1px solid rgba(var(--highlight-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
@@ -341,7 +341,7 @@ html body #main-outlet {
           opacity: 0.75;
         }
         &:hover {
-          border: 1px solid rgba(var(--highlight-rgb), 0.25); /* Topic box border hover ? */
+          border: 1px solid rgba(var(--header_background-rgb), 0.25); /* Topic box border hover ? */
           .discourse-tag {
             opacity: 1;
           }
