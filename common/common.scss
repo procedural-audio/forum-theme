@@ -329,7 +329,7 @@ html body #main-outlet {
       width: 100%;
       display: flex;
       margin-bottom: 0.5em;
-      background-color: var(--highlight); /* Topic box background ? */
+      background-color: var(--header_background); /* Topic box background */
       border: 1px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
@@ -348,7 +348,7 @@ html body #main-outlet {
         }
       }
       &:hover {
-        background-color: var(--secondary);
+        background-color: var(--highlight); /* Topic box background hover */
         box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.1);
         border: 1px solid rgba(var(--primary-rgb), 0.3);
         a.title:not(.badge-notification),
