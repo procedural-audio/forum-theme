@@ -285,10 +285,10 @@ html body #main-outlet {
 
 @keyframes background-fade-highlight {
   0% {
-    background-color: var(--secondary);
+    background-color: var(--header_background);
   }
   100% {
-    background-color: var(--secondary);
+    background-color: var(--header_background);
   }
 }
 
