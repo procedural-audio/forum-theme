@@ -329,19 +329,19 @@ html body #main-outlet {
       width: 100%;
       display: flex;
       margin-bottom: 0.5em;
-      background-color: var(--secondary); /* Topic box background ? */
+      background-color: var(--highlight); /* Topic box background ? */
       border: 1px solid rgba(var(--primary-rgb), 0.2);
       border-radius: 1em;
       position: relative;
       transition: box-shadow 100ms ease-in-out;
       box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.05);
       &.visited {
-        border: 1px solid rgba(var(--highlight-rgb), 0.1);
+        border: 1px solid rgba(var(--highlight-rgb), 0.1); /* Topic box border */
         .discourse-tag {
           opacity: 0.75;
         }
         &:hover {
-          border: 1px solid rgba(var(--highlight-rgb), 0.25); /* Topic box background hover ? */
+          border: 1px solid rgba(var(--highlight-rgb), 0.25); /* Topic box border hover ? */
           .discourse-tag {
             opacity: 1;
           }
