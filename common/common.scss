@@ -521,3 +521,8 @@ html body #main-outlet {
 .suggested-topics-message {
   display: none 
 }
+
+.alert.alert-info {
+   background-color: var(--highlight);
+   color: var(--primary);
+}
