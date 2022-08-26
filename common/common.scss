@@ -32,8 +32,8 @@
     }
   }
   .search-menu .search-input {
-    border-color: var(--tertiary-hover);
-    outline: 1px solid var(--tertiary-hover);
+    border-color: var(--highlight-hover);
+    outline: 1px solid var(--highlight-hover);
   }
   .results {
     top: 43px;
@@ -193,7 +193,7 @@ div.ac-wrap {
 .menu-panel .widget-link:focus,
 .menu-panel .categories-link:hover,
 .menu-panel .categories-link:focus {
-  background-color: rgba(var(--tertiary-rgb), 0.5);
+  background-color: rgba(var(--highlight-rgb), 0.5);
 }
 
 .btn:not(.themes-tab):not(.components-tab),
@@ -209,15 +209,15 @@ div.ac-wrap {
 }
 
 .unread-high-priority-notifications {
-  background: var(--quaternary);
+  background: var(--highlight);
 }
 
 .timeline-container .topic-timeline .timeline-handle {
-  background-color: var(--tertiary);
+  background-color: var(--highlight);
 }
 
 .timeline-container .topic-timeline .timeline-scrollarea {
-  border-left-color: var(--tertiary);
+  border-left-color: var(--highlight);
 }
 
 // graceful ish style
