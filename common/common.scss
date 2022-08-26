@@ -285,7 +285,7 @@ html body #main-outlet {
 
 @keyframes background-fade-highlight {
   0% {
-    background-color: var(--highlight-low);
+    background-color: var(--secondary);
   }
   100% {
     background-color: var(--secondary);
